@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
             <connections>
+                <outlet property="tableview" destination="dJB-aI-JIP" id="4QG-ia-mUe"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -13,6 +14,24 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="dJB-aI-JIP">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="n9M-Ko-6EK"/>
+                        <outlet property="delegate" destination="-1" id="TTa-EC-hdU"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dJB-aI-JIP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CcR-6C-aai"/>
+                <constraint firstItem="dJB-aI-JIP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ekg-jh-WSb"/>
+                <constraint firstAttribute="trailing" secondItem="dJB-aI-JIP" secondAttribute="trailing" id="YIo-t1-eTJ"/>
+                <constraint firstAttribute="bottom" secondItem="dJB-aI-JIP" secondAttribute="bottom" id="gr1-MR-Bor"/>
+            </constraints>
+            <point key="canvasLocation" x="17" y="-74"/>
         </view>
     </objects>
 </document>

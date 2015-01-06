@@ -8,6 +8,13 @@
 
 #import "BaseViewController.h"
 
-@interface MainViewController : BaseViewController
+@interface MainViewController : BaseViewController<UITableViewDataSource,UITableViewDelegate>
+
+//是否點擊展開列表
+@property (assign)BOOL isOpen;
+@property (nonatomic , retain)NSIndexPath *selectIndex;
+@property (nonatomic , strong) NSMutableArray *tableViewData;
+
+@property (weak , nonatomic) IBOutlet UITableView *tableview;
 
 @end

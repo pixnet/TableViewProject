@@ -15,7 +15,11 @@
 #import <AFNetworking/AFNetworking.h>
 /******   Pod   ******/
 
+typedef void (^ApiCallback)(id result, NSError *error);//API Call Back的Block方法
+
 
 @interface BaseViewController : UIViewController
+
+-(void)getAPIData:(NSString *)urlString parameters:(NSDictionary *)parameters callback:(ApiCallback)callback;
 
 @end

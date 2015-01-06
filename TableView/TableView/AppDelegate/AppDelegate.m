@@ -28,14 +28,9 @@
     
     [self.window setRootViewController:navigationController];
     
+    NSLog(@"window.frame.size.height = %4.2f",self.window.frame.size.height);
+    
     [self.window makeKeyAndVisible];
-//    window = [[[UIApplication sharedApplication] windows]objectAtIndex:0];
-//    
-//    [window setRootViewController:appDelegateNav];
-//    
-//    NSLog(@"window.frame.size.height = %4.2f",window.frame.size.height);
-//    
-//    [window makeKeyAndVisible];
     
     return YES;
 }
