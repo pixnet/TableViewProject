@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		BF16B87D1A5B76D4005FBA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16B87C1A5B76D4005FBA6D /* main.m */; };
-		BF16B8801A5B76D4005FBA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16B87F1A5B76D4005FBA6D /* AppDelegate.m */; };
-		BF16B8831A5B76D4005FBA6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16B8821A5B76D4005FBA6D /* ViewController.m */; };
-		BF16B8861A5B76D4005FBA6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF16B8841A5B76D4005FBA6D /* Main.storyboard */; };
 		BF16B8881A5B76D4005FBA6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF16B8871A5B76D4005FBA6D /* Images.xcassets */; };
 		BF16B88B1A5B76D4005FBA6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF16B8891A5B76D4005FBA6D /* LaunchScreen.xib */; };
 		BF16B8971A5B76D4005FBA6D /* TableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16B8961A5B76D4005FBA6D /* TableViewTests.m */; };
+		BF16B8A61A5B7A9F005FBA6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16B8A21A5B7A9F005FBA6D /* AppDelegate.m */; };
+		BF16B8B61A5B7E20005FBA6D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16B8B51A5B7E20005FBA6D /* BaseViewController.m */; };
+		BF16B8C31A5B8305005FBA6D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16B8C11A5B8305005FBA6D /* MainViewController.m */; };
+		BF16B8C41A5B8305005FBA6D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF16B8C21A5B8305005FBA6D /* MainViewController.xib */; };
+		FFD6BEC716AF0D0F6DC6134F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFDE68B911D46A2577911AA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +32,22 @@
 		BF16B8771A5B76D4005FBA6D /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF16B87B1A5B76D4005FBA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF16B87C1A5B76D4005FBA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF16B87E1A5B76D4005FBA6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BF16B87F1A5B76D4005FBA6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF16B8811A5B76D4005FBA6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF16B8821A5B76D4005FBA6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF16B8851A5B76D4005FBA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF16B8871A5B76D4005FBA6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BF16B88A1A5B76D4005FBA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BF16B8901A5B76D4005FBA6D /* TableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF16B8951A5B76D4005FBA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF16B8961A5B76D4005FBA6D /* TableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTests.m; sourceTree = "<group>"; };
+		BF16B8A11A5B7A9F005FBA6D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF16B8A21A5B7A9F005FBA6D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF16B8B41A5B7E20005FBA6D /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BF16B8B51A5B7E20005FBA6D /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BF16B8BF1A5B820D005FBA6D /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		BF16B8C01A5B8305005FBA6D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BF16B8C11A5B8305005FBA6D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BF16B8C21A5B8305005FBA6D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		D28438856A9644753EF7043B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DFFDE68B911D46A2577911AA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF201A6F192EE8A6124F66B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFD6BEC716AF0D0F6DC6134F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +69,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4ECCAA2FF172ABB395F1111E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF201A6F192EE8A6124F66B6 /* Pods.debug.xcconfig */,
+				D28438856A9644753EF7043B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		666797F14E71700D6F9F57B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDE68B911D46A2577911AA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF16B86E1A5B76D4005FBA6D = {
 			isa = PBXGroup;
 			children = (
 				BF16B8791A5B76D4005FBA6D /* TableView */,
 				BF16B8931A5B76D4005FBA6D /* TableViewTests */,
 				BF16B8781A5B76D4005FBA6D /* Products */,
+				4ECCAA2FF172ABB395F1111E /* Pods */,
+				666797F14E71700D6F9F57B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +109,10 @@
 		BF16B8791A5B76D4005FBA6D /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				BF16B87E1A5B76D4005FBA6D /* AppDelegate.h */,
-				BF16B87F1A5B76D4005FBA6D /* AppDelegate.m */,
-				BF16B8811A5B76D4005FBA6D /* ViewController.h */,
-				BF16B8821A5B76D4005FBA6D /* ViewController.m */,
-				BF16B8841A5B76D4005FBA6D /* Main.storyboard */,
+				BF16B8A01A5B7A9F005FBA6D /* AppDelegate */,
+				BF16B8BE1A5B8200005FBA6D /* Global */,
+				BF16B8B31A5B7C91005FBA6D /* BaseViewCnotroller */,
+				BF16B8A31A5B7A9F005FBA6D /* ViewControllers */,
 				BF16B8871A5B76D4005FBA6D /* Images.xcassets */,
 				BF16B8891A5B76D4005FBA6D /* LaunchScreen.xib */,
 				BF16B87A1A5B76D4005FBA6D /* Supporting Files */,
@@ -119,6 +146,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BF16B8A01A5B7A9F005FBA6D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BF16B8A11A5B7A9F005FBA6D /* AppDelegate.h */,
+				BF16B8A21A5B7A9F005FBA6D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BF16B8A31A5B7A9F005FBA6D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF16B8A81A5B7AE1005FBA6D /* MainView */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BF16B8A81A5B7AE1005FBA6D /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				BF16B8C01A5B8305005FBA6D /* MainViewController.h */,
+				BF16B8C11A5B8305005FBA6D /* MainViewController.m */,
+				BF16B8C21A5B8305005FBA6D /* MainViewController.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		BF16B8B31A5B7C91005FBA6D /* BaseViewCnotroller */ = {
+			isa = PBXGroup;
+			children = (
+				BF16B8B41A5B7E20005FBA6D /* BaseViewController.h */,
+				BF16B8B51A5B7E20005FBA6D /* BaseViewController.m */,
+			);
+			name = BaseViewCnotroller;
+			path = ViewControllers/BaseViewCnotroller;
+			sourceTree = "<group>";
+		};
+		BF16B8BE1A5B8200005FBA6D /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				BF16B8BF1A5B820D005FBA6D /* Global.h */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF16B89A1A5B76D4005FBA6D /* Build configuration list for PBXNativeTarget "TableView" */;
 			buildPhases = (
+				F604097FB50851E5D1EC7922 /* Check Pods Manifest.lock */,
 				BF16B8731A5B76D4005FBA6D /* Sources */,
 				BF16B8741A5B76D4005FBA6D /* Frameworks */,
 				BF16B8751A5B76D4005FBA6D /* Resources */,
+				7946A832494E57F8550B77DF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +273,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF16B8861A5B76D4005FBA6D /* Main.storyboard in Resources */,
 				BF16B88B1A5B76D4005FBA6D /* LaunchScreen.xib in Resources */,
+				BF16B8C41A5B8305005FBA6D /* MainViewController.xib in Resources */,
 				BF16B8881A5B76D4005FBA6D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +288,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7946A832494E57F8550B77DF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F604097FB50851E5D1EC7922 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF16B8731A5B76D4005FBA6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF16B8831A5B76D4005FBA6D /* ViewController.m in Sources */,
-				BF16B8801A5B76D4005FBA6D /* AppDelegate.m in Sources */,
+				BF16B8A61A5B7A9F005FBA6D /* AppDelegate.m in Sources */,
+				BF16B8B61A5B7E20005FBA6D /* BaseViewController.m in Sources */,
 				BF16B87D1A5B76D4005FBA6D /* main.m in Sources */,
+				BF16B8C31A5B8305005FBA6D /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +352,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF16B8841A5B76D4005FBA6D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF16B8851A5B76D4005FBA6D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF16B8891A5B76D4005FBA6D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,6 +443,7 @@
 		};
 		BF16B89B1A5B76D4005FBA6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF201A6F192EE8A6124F66B6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableView/Info.plist;
@@ -353,6 +454,7 @@
 		};
 		BF16B89C1A5B76D4005FBA6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28438856A9644753EF7043B /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableView/Info.plist;
@@ -414,6 +516,7 @@
 				BF16B89C1A5B76D4005FBA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF16B89D1A5B76D4005FBA6D /* Build configuration list for PBXNativeTarget "TableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +525,7 @@
 				BF16B89F1A5B76D4005FBA6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
